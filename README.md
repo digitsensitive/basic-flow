@@ -6,7 +6,7 @@
 BASICFlow is a lightweight BASIC programming environment written in `C` and
 `SDL3`. This project was created for educational purposes.
 
-<img src="./readme_image.png" alt="BASICFlow" style="width: 50%;"/>
+<img src="./readme_image.png" alt="BASICFlow" style="width: 100%;"/>
 
 ## Features
 
