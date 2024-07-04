@@ -10,7 +10,11 @@ BASICFlow is a lightweight BASIC programming environment written in `C` and
 
 ## Features
 
-TODO
+1. **Cross-Platform Compatibility**: BASICFlow is designed to work seamlessly
+   across various platforms, including Windows, macOS, and Linux.
+2. **Open Source**: BASICFlow is an open-source project, encouraging collaboration
+   and contributions from the community. Feel free to fork the repository,
+   report issues, or submit pull requests.
 
 ## How to build
 
