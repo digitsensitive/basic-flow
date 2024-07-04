@@ -35,6 +35,8 @@ if (WIN32)
     set(BASICFlow_SRC "${PROJECT_SOURCE_DIR}/build/windows/BASICFlow.rc")
     add_executable(${PROJECT_NAME} WIN32
         src/main.c
+        src/sdl_engine.c
+        src/sdl_renderer.c
         ${BASICFlow_SRC})
 elseif(APPLE)
     set(MACOSX_BUNDLE_ICON_FILE "${PROJECT_SOURCE_DIR}/build/macosx/BASICFlow.icns")
@@ -42,7 +44,9 @@ elseif(APPLE)
     set(MACOSX_BUNDLE_INFO_PLIST "${PROJECT_SOURCE_DIR}/build/macosx/BASICFlow.plist.in")
     
     add_executable(${PROJECT_NAME}
-        src/main.c)
+        src/main.c
+        src/sdl_engine.c
+        src/sdl_renderer.c)
     
     # Set icon file for the bundle
     set_source_files_properties(${PROJECT_SOURCE_DIR}/build/macosx/BASICFlow.icns PROPERTIES MACOSX_PACKAGE_LOCATION Resources)
@@ -58,7 +62,9 @@ elseif(APPLE)
     
 else()
      add_executable(${PROJECT_NAME}
-        src/main.c)
+        src/main.c
+        src/sdl_engine.c
+        src/sdl_renderer.c)
  endif()
 
 target_include_directories(${PROJECT_NAME} PRIVATE include)
