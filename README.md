@@ -1,7 +1,7 @@
 # BASICFlow
 
-![GitHub repo size](https://img.shields.io/github/repo-size/digitsensitive/BASICFlow)
-![GitHub Release](https://img.shields.io/github/v/release/digitsensitive/BASICFlow)
+![GitHub repo size](https://img.shields.io/github/repo-size/digitsensitive/basic-flow)
+![GitHub Release](https://img.shields.io/github/v/release/digitsensitive/basic-flow)
 
 BASICFlow is a lightweight BASIC programming environment written in `C` and
 `SDL3`. This project was created for educational purposes.
